@@ -62,9 +62,13 @@ The model classifies X-ray images as:
    The system will load the X-ray images, process them, and classify each as pneumonia-positive or negative.
 
 ## Directory Structure
-- **`data/`**: Contains chest X-ray images.
-- **`docs/`**: Project documentation and reports.
-- **`src/`**: Source code, including the main detection script.
+- **`Pneumonia Detection Using CNN.pdf`**: Project report and documentation.
+- **`presentation/`**: Contains presentation slides related to the project.
+- **`Pneumonia_Detection_CNN_Features_ML_Model.ipynb`**: Updated notebook implementing feature extraction using CNN and classification using machine learning models.
+- **`Pneumonia_Detection_Using_CNN.ipynb`**: Original notebook implementing CNN for both feature extraction and prediction.
+- **`README.md`**: Project README file.
+- **`normal.jpg`**: Sample chest X-ray image (normal).
+- **`pneumonic.jpg`**: Sample chest X-ray image (pneumonia).
 
 ## Issues and Future Improvements
 - Model accuracy may vary based on image quality and dataset diversity.
